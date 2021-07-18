@@ -1,0 +1,59 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 72.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 497.000000000000000000
+    Size.Height = 257.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 493.000000000000000000
+    Viewport.Height = 253.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 248.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Set temperatures'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.Y = 72.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Show temperatures'
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 312.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Mean temperature'
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 5
+    Text = 'Button4'
+    OnClick = Button4Click
+  end
+end
