@@ -6,5 +6,5 @@ A selection of examples of using Delphi with Object Pascal (using Marco Cantu's 
 * `Chapter 2` - Variables & data types, and using time features
 * `Chapter 3` - `if` statements, `for` and `while` loops, cases, and `break` & `continue`
 * `Chapter 4` - Functions, procedures, parameters, and function overloading and inlining
-* `Chapter 5` - arrays and records
+* `Chapter 5` - Arrays and records
 
