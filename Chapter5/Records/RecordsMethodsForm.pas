@@ -67,6 +67,7 @@ end;
 
 procedure TMyRecord.SetValue(NewString: string);
 begin
+  // actually Self.Fname using Python style 'self' (or 'this' in Java)
   FName := NewString;
 end;
 
@@ -115,9 +116,11 @@ procedure TForm1.Button2Click(Sender: TObject);
 var
   MyRec: TMyRecord;
 begin
+  // records are only initialised when defined globally, not locally
   Show(MyRec.ToString);
 end;
 
+// record constructors
 procedure TForm1.Button3Click(Sender: TObject);
 var
   MyRec, MyRec2: TMyNewRecord;
