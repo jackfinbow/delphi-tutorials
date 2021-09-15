@@ -1,0 +1,258 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 32.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 569.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 565.000000000000000000
+    Viewport.Height = 237.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Create Matrix 1'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 416.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Create Matrix 2'
+    OnClick = Button2Click
+  end
+  object ListBoxM1Rows: TListBox
+    Position.X = 48.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 45.000000000000000000
+    Viewport.Height = 101.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      TabOrder = 0
+      Text = '1'
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 19.000000000000000000
+      TabOrder = 1
+      Text = '2'
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 38.000000000000000000
+      TabOrder = 2
+      Text = '3'
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Y = 57.000000000000000000
+      TabOrder = 3
+      Text = '4'
+    end
+    object ListBoxItem5: TListBoxItem
+      Position.Y = 76.000000000000000000
+      TabOrder = 4
+      Text = '5'
+      object Label1: TLabel
+        Position.X = -40.000000000000000000
+        Text = 'Label1'
+        TabOrder = 0
+      end
+    end
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Matrix 1 Dimension'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 400.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Matrix 2 Dimension'
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 120.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 17.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'X'
+    TabOrder = 8
+  end
+  object ListBoxM1Cols: TListBox
+    Position.X = 160.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 45.000000000000000000
+    Viewport.Height = 101.000000000000000000
+    object ListBoxItem6: TListBoxItem
+      TabOrder = 0
+      Text = '1'
+    end
+    object ListBoxItem7: TListBoxItem
+      Position.Y = 19.000000000000000000
+      TabOrder = 1
+      Text = '2'
+    end
+    object ListBoxItem8: TListBoxItem
+      Position.Y = 38.000000000000000000
+      TabOrder = 2
+      Text = '3'
+    end
+    object ListBoxItem9: TListBoxItem
+      Position.Y = 57.000000000000000000
+      TabOrder = 3
+      Text = '4'
+    end
+    object ListBoxItem10: TListBoxItem
+      Position.Y = 76.000000000000000000
+      TabOrder = 4
+      Text = '5'
+    end
+  end
+  object ListBoxM2Rows: TListBox
+    Position.X = 392.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 45.000000000000000000
+    Viewport.Height = 101.000000000000000000
+    object ListBoxItem11: TListBoxItem
+      TabOrder = 0
+      Text = '1'
+    end
+    object ListBoxItem12: TListBoxItem
+      Position.Y = 19.000000000000000000
+      TabOrder = 1
+      Text = '2'
+    end
+    object ListBoxItem13: TListBoxItem
+      Position.Y = 38.000000000000000000
+      TabOrder = 2
+      Text = '3'
+    end
+    object ListBoxItem14: TListBoxItem
+      Position.Y = 57.000000000000000000
+      TabOrder = 3
+      Text = '4'
+    end
+    object ListBoxItem15: TListBoxItem
+      Position.Y = 76.000000000000000000
+      TabOrder = 4
+      Text = '5'
+    end
+  end
+  object ListBoxM2Cols: TListBox
+    Position.X = 504.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 45.000000000000000000
+    Viewport.Height = 101.000000000000000000
+    object ListBoxItem16: TListBoxItem
+      TabOrder = 0
+      Text = '1'
+    end
+    object ListBoxItem17: TListBoxItem
+      Position.Y = 19.000000000000000000
+      TabOrder = 1
+      Text = '2'
+    end
+    object ListBoxItem18: TListBoxItem
+      Position.Y = 38.000000000000000000
+      TabOrder = 2
+      Text = '3'
+    end
+    object ListBoxItem19: TListBoxItem
+      Position.Y = 57.000000000000000000
+      TabOrder = 3
+      Text = '4'
+    end
+    object ListBoxItem20: TListBoxItem
+      Position.Y = 76.000000000000000000
+      TabOrder = 4
+      Text = '5'
+    end
+  end
+  object Label5: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 464.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 17.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'X'
+    TabOrder = 7
+  end
+  object Button3: TButton
+    Position.X = 232.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    Text = 'Add'
+    OnClick = Button3Click
+  end
+end
